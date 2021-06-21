@@ -20,7 +20,7 @@ const Payment = () => {
     document.getElementById("btnPagar").appendChild(script);
   };
   useEffect(() => {
-    //I'm collecting data from cookies here, but you can caught the data from a form or whatever data . 
+    //I'm collecting data from cookies here, but it can capture the data from a form or any other data . 
     let datos = [cookies.compra, cookies.cookieAddress];
     
    //We send data to our backend for getting preference id from there.
