@@ -52,7 +52,7 @@ const Payment = () => {
           detalles de tu compra y nos pondremos en contacto con vos para
           confirmar los datos de envío.
         </p>
-        <!--Here we are appending the mercadopago script with the given pref id-->
+        {/* Here we are appending the mercadopago script with the given pref id */}
         <h3 id="btnPagar"></h3>
       </Jumbotron>
     </Container>
